@@ -98,7 +98,7 @@ Step 1 - Go to your ````Pom.xml```` of the main project and add the following de
             <groupId>dev.jda</groupId>
             <artifactId>demo-model-libary</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+     </dependency>
        
 ```
 
@@ -109,7 +109,7 @@ Step 2 - Remove `SNAPSHOT` from the version when you are done developing " remov
             <groupId>dev.jda</groupId>
             <artifactId>demo-model-libary</artifactId>
             <version>0.0.1</version>
-        </dependency>
+     </dependency>
        
 ```
 Step 3 - Before using the library, you must reload and install your Maven dependencies. 
