@@ -8,10 +8,10 @@
 
 [![](https://img.shields.io/badge/Spring%20Boot-8A2BE2)]() [![](https://img.shields.io/badge/release-Apr%2004,%202024-blue)]() [![](https://img.shields.io/badge/version-3.2.4-blue)]()
 
-### 1.  What is the advantage of using a model library of DTO's?
+## 1.  What is the advantage of using a model library of DTO's?
 A model library reduces file duplication by centralizing reusable components, resulting in fewer files in the project.
 
-### 2. What is a DTO?
+### 1.2 What is a DTO?
 A Data Transfer Object (DTO) is an object used to encapsulate data and send it from one subsystem of an application to another. Here’s why we use DTOs:
 
 1. Reducing Data Overhead:
@@ -32,7 +32,8 @@ This library can be implemented in your project by following these steps below
 
 ### 2.1 Create a Spring Boot Application
 Go to [Spring](start.spring.io) and create a new Spring Boot project.
-![img.png](src%2Fmain%2Fresources%2Fimages%2Fimg.png)
+![img.png](![spring-initializr.png](https://github.com/darksos34/modellibary/blob/master/src/main/resources/images/spring-initializr.png))
+
 
 Add the following dependencies:
 
@@ -113,7 +114,7 @@ Step 2 - When you are done developing, remove snapshot from the version.
        
 ```
 Step 3 - before you can use the library, you need to reload and install your maven  dependencies. 
-![img.png](src/main/resources/images/maven-reload.png)
+![img.png](https://github.com/darksos34/modellibary/blob/master/src/main/resources/images/maven-reload.png)
 ```
 mvn clean install
 ```

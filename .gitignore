@@ -5,7 +5,7 @@ HELP.md
 *.iws
 *.iml
 *.ipr
-
+.mvn
 # Maven files
 *.cmd
 mvnw
