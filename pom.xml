@@ -12,7 +12,7 @@
     <artifactId>model-libary</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>modellibary</name>
-    <description>Model Library</description>
+    <description>Spring Boot Model Library</description>
     <properties>
         <java.version>21</java.version>
     </properties>
