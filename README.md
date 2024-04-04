@@ -6,9 +6,9 @@
 <b>Created:</b> 2024-04-04<br>
 <b>Last updated:</b> 2024-04-04
 
-[![](https://img.shields.io/badge/Spring%20Boot-8A2BE2)]() [![](https://img.shields.io/badge/release-Apr%2004,%202024-blue)]() [![](https://img.shields.io/badge/version-3.2.4-blue)]()
+[![](https://img.shields.io/badge/Spring%20Boot-8A2BE2)]() [![](https://img.shields.io/badge/release-Apr%2004,%202024-blue)]() [![](https://img.shields.io/badge/version-3.2.4-blue)
 
-## 1.  What is the advantage of using a model library of DTO's?
+## 1.  What is the advantage of using a model library of DTOs?
 A model library reduces file duplication by centralizing reusable components, resulting in fewer files in the project.
 
 ### 1.2 What is a DTO?
@@ -28,7 +28,7 @@ A Data Transfer Object (DTO) is an object used to encapsulate data and send it f
 * Conversion between Domain Object and DTO can be costly, but it’s essential for distributed applications.
 
 ## 2. How can you implement a model library in your project?
-This library can be implemented in your project by following these steps below
+This library can be implemented in your project by following the steps below
 
 ### 2.1 Create a Spring Boot Application
 Go to [Spring](start.spring.io) and create a new Spring Boot project.
@@ -46,11 +46,11 @@ Because it is just that easy to use.
 Want to know more about <b>Project Lombok</b>? [Click this link](https://projectlombok.org/features/)
 
 [![](https://img.shields.io/badge/Spring%20Validation-88888)]()
-This Spring Validation dependency will provide us with all the necessary functionality to validate our DTO's.
+This Spring Validation dependency will provide us with all the necessary functionality to validate our DTOs.
 
 ### 2.3 Create a DTO
 
-Let's create an DTO class that will represent the data that we want to expose to the client.
+Let's create a DTO class that will represent the data that we want to expose to the client.
 
 `DemotDTO.java`
 ```java
@@ -78,7 +78,6 @@ public class ModelDTO {
 
 ```
 
-
 `@Getter` is a Lombok annotation that generates a getter method for each field in the class.</br>
 `@Setter` is a Lombok annotation that generates a setter method for each field in the class.</br>
 `@Builder` is a Lombok annotation that produces complex builder APIs for the class it is applied to unit tests.</br>
@@ -103,7 +102,7 @@ Step 1 - Go to your ````Pom.xml```` of the main project and add the following de
        
 ```
 
-Step 2 - When you are done developing, remove snapshot from the version. 
+Step 2 - Remove `SNAPSHOT` from the version when you are done developing " remove snapshot from the version", 
 
 ```
      <dependency>
@@ -113,7 +112,7 @@ Step 2 - When you are done developing, remove snapshot from the version.
         </dependency>
        
 ```
-Step 3 - before you can use the library, you need to reload and install your maven  dependencies. 
+Step 3 - Before using the library, you must reload and install your Maven dependencies. 
 ![img.png](https://github.com/darksos34/modellibary/blob/master/src/main/resources/images/maven-reload.png)
 ```
 mvn clean install
