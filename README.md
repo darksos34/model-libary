@@ -32,7 +32,7 @@ This library can be implemented in your project by following these steps below
 
 ### 2.1 Create a Spring Boot Application
 Go to [Spring](start.spring.io) and create a new Spring Boot project.
-![img.png](![spring-initializr.png](https://github.com/darksos34/modellibary/blob/master/src/main/resources/images/spring-initializr.png))
+![01-start-spring-io](https://github.com/darksos34/modellibary/blob/master/src/main/resources/images/spring-initializr.png))
 
 
 Add the following dependencies:
