@@ -6,7 +6,7 @@
 <b>Created:</b> 2024-04-04<br>
 <b>Last updated:</b> 2024-04-04
 
-[![](https://img.shields.io/badge/Spring%20Boot-8A2BE2)]() [![](https://img.shields.io/badge/release-Apr%2004,%202024-blue)]() [![](https://img.shields.io/badge/version-3.2.4-blue)
+[![](https://img.shields.io/badge/Spring%20Boot-8A2BE2)]() [![](https://img.shields.io/badge/release-Apr%2004,%202024-blue)]() [![](https://img.shields.io/badge/version-3.2.4-blue)]()
 
 ## 1.  What is the advantage of using a model library of DTOs?
 A model library reduces file duplication by centralizing reusable components, resulting in fewer files in the project.
@@ -32,7 +32,7 @@ This library can be implemented in your project by following the steps below
 
 ### 2.1 Create a Spring Boot Application
 Go to [Spring](start.spring.io) and create a new Spring Boot project.
-![01-start-spring-io](https://github.com/darksos34/modellibary/blob/master/src/main/resources/images/spring-initializr.png))
+![01-start-spring-io](https://github.com/darksos34/modellibary/blob/master/src/main/resources/images/spring-initializr.png)
 
 
 Add the following dependencies:
@@ -52,7 +52,7 @@ This Spring Validation dependency will provide us with all the necessary functio
 
 Let's create a DTO class that will represent the data that we want to expose to the client.
 
-`DemotDTO.java`
+`ModelDTO.java`
 ```java
 
 @Getter
