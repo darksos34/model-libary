@@ -10,7 +10,7 @@
     </parent>
     <groupId>dev.jda</groupId>
     <artifactId>model-libary</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>model-libary</name>
     <description>Spring Boot Model Library</description>
     <properties>
