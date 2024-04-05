@@ -13,7 +13,7 @@ import lombok.Setter;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ModelDTO {
+public class DemoDTO {
 
     @Null
     private String url;
