@@ -1,4 +1,4 @@
-package dev.jda.modellibary;
+package dev.jda.model.library;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

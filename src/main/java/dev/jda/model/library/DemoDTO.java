@@ -1,4 +1,4 @@
-package dev.jda.modellibary;
+package dev.jda.model.library;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Null;

@@ -1,4 +1,4 @@
-package dev.jda.modellibary;
+package dev.jda.model.library;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

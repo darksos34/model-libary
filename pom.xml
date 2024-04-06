@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dev.jda</groupId>
-    <artifactId>model-libary</artifactId>
+    <artifactId>model-library</artifactId>
     <version>0.0.2</version>
-    <name>model-libary</name>
+    <name>model-library</name>
     <description>Spring Boot Model Library</description>
     <properties>
         <java.version>21</java.version>
