@@ -4,7 +4,7 @@
 
 <b>Author:</b> <a href="https://github.com/darksos34" target="_blank">Jordy Hamwijk</a><br>
 <b>Created:</b> 2024-04-04<br>
-<b>Last updated:</b> 2024-04-06
+<b>Last updated:</b> 2024-04-11<br>
 
 [![](https://img.shields.io/badge/Spring%20Boot-8A2BE2)]() [![](https://img.shields.io/badge/release-Apr%2004,%202024-blue)]() [![](https://img.shields.io/badge/version-3.2.4-blue)]()
 
@@ -48,6 +48,12 @@ Want to know more about <b>Project Lombok</b>? [Click this link](https://project
 [![](https://img.shields.io/badge/Spring%20Validation-88888)]()
 This Spring Validation dependency will provide us with all the necessary functionality to validate our DTOs.
 
+[![](https://img.shields.io/badge/Hateoas%20-123)]()
+This Spring Hateoas dependency will provide us with all the necessary functionality to create hypermedia-driven REST endpoints.
+
+[![](https://img.shields.io/badge/Swagger%20-111111)]()
+This Spring Swagger dependency will provide us with all the necessary functionality to create API documentation.
+
 ### 2.3 Create a DTO
 
 Let's create a DTO class that will represent the data that we want to expose to the client.
@@ -77,7 +83,6 @@ public class ModelDTO {
 
 
 ```
-
 `@Getter` is a Lombok annotation that generates a getter method for each field in the class.</br>
 `@Setter` is a Lombok annotation that generates a setter method for each field in the class.</br>
 `@Builder` is a Lombok annotation that produces complex builder APIs for the class it is applied to unit tests.</br>
