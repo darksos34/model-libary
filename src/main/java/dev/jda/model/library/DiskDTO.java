@@ -8,13 +8,14 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.hateoas.RepresentationModel;
 
 @Getter
 @Setter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class DiskDTO {
+public class DiskDTO extends RepresentationModel<DiskDTO> {
 
     @Null
     @Schema(accessMode = Schema.AccessMode.READ_ONLY, description = "URL reference to this object. This is the unique identification and location of this object.”")
