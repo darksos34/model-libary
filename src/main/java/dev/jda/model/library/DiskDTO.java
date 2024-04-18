@@ -22,7 +22,7 @@ public class DiskDTO extends RepresentationModel<DiskDTO> {
     private String url;
 
     @Null
-    @Schema(title = "id", accessMode = Schema.AccessMode.READ_ONLY, description = "Unique resource identification of a DEMO (UUID4)", format = "uuid")
+    @Schema(title = "id", accessMode = Schema.AccessMode.READ_ONLY, description = "Unique resource identification of a DRIVE (UUID4)", format = "uuid")
     private String uuid;
 
     @Size(max = 40)

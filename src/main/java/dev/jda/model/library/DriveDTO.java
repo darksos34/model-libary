@@ -15,15 +15,15 @@ import org.springframework.hateoas.RepresentationModel;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Schema(title = "demo")
-public class DemoDTO extends RepresentationModel<DemoDTO> {
+@Schema(title = "drive", description = "A private string variable named drive")
+public class DriveDTO extends RepresentationModel<DriveDTO> {
 
     @Null
     @Schema(accessMode = Schema.AccessMode.READ_ONLY, description = "URL reference to this object. This is the unique identification and location of this object.”")
     private String url;
 
     @Null
-    @Schema(title = "id", accessMode = Schema.AccessMode.READ_ONLY, description = "Unique resource identification of a DEMO (UUID4)", format = "uuid")
+    @Schema(title = "id", accessMode = Schema.AccessMode.READ_ONLY, description = "Unique resource identification of a DRIVE (UUID4)", format = "uuid")
     private String uuid;
 
     @Size(max = 40)
