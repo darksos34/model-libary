@@ -5,24 +5,25 @@ import jakarta.validation.constraints.Null;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Getter;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 import org.springframework.hateoas.RepresentationModel;
 
-@Getter
-@Setter
+@EqualsAndHashCode(callSuper = true)
+@Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class DiskDTO extends RepresentationModel<DiskDTO> {
+@Schema(title = "user", description = "A private string variable named user")
+public class UserDTO extends RepresentationModel<UserDTO> {
 
     @Null
     @Schema(accessMode = Schema.AccessMode.READ_ONLY, description = "URL reference to this object. This is the unique identification and location of this object.”")
     private String url;
 
     @Null
-    @Schema(title = "id", accessMode = Schema.AccessMode.READ_ONLY, description = "Unique resource identification of a DRIVE (UUID4)", format = "uuid")
+    @Schema(title = "id", accessMode = Schema.AccessMode.READ_ONLY, description = "Unique resource identification of a USER (UUID4)", format = "uuid")
     private String uuid;
 
     @Size(max = 40)
@@ -30,6 +31,7 @@ public class DiskDTO extends RepresentationModel<DiskDTO> {
     private String name;
 
     @Size(max = 15)
+
     @Schema(title = "Code",requiredMode = Schema.RequiredMode.REQUIRED, description = "A string variable named CODE with the value \"ABC123\"")
     private String code;
 
