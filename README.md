@@ -4,7 +4,7 @@
 
 <b>Author:</b> <a href="https://github.com/darksos34" target="_blank">Jordy Hamwijk</a><br>
 <b>Created:</b> 2024-04-04<br>
-<b>Last updated:</b> 2024-04-28<br>
+<b>Last updated:</b> 2024-04-29<br>
 
 [![](https://img.shields.io/badge/Spring%20Boot-8A2BE2)]() [![](https://img.shields.io/badge/release-Apr%2004,%202024-blue)]() [![](https://img.shields.io/badge/version-3.2.4-blue)]()
 
@@ -102,7 +102,7 @@ Step 1 - Go to your ````Pom.xml```` of the main project and add the following de
      <dependency>
             <groupId>dev.jda</groupId>
             <artifactId>demo-model-libary</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version><your-version>-SNAPSHOT</version>
      </dependency>
        
 ```
@@ -113,7 +113,7 @@ Step 2 - Remove `SNAPSHOT` from the version when you are done developing " remov
      <dependency>
             <groupId>dev.jda</groupId>
             <artifactId>demo-model-libary</artifactId>
-            <version>0.0.1</version>
+            <version><your-version></version>
      </dependency>
        
 ```
