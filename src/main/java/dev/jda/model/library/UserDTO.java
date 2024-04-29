@@ -10,6 +10,8 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import org.springframework.hateoas.RepresentationModel;
 
+import java.util.List;
+
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Builder
@@ -34,5 +36,8 @@ public class UserDTO extends RepresentationModel<UserDTO> {
 
     @Schema(title = "Code",requiredMode = Schema.RequiredMode.REQUIRED, description = "A string variable named CODE with the value \"ABC123\"")
     private String code;
+
+    @Schema(title = "Profile",requiredMode = Schema.RequiredMode.REQUIRED, description = "A private string variable named profile")
+    private List<ProfileDTO> profiles;
 
 }
