@@ -4,7 +4,7 @@
 
 <b>Author:</b> <a href="https://github.com/darksos34" target="_blank">Jordy Hamwijk</a><br>
 <b>Created:</b> 2024-04-04<br>
-<b>Last updated:</b> 2024-05-07</br>
+<b>Last updated:</b> 2024-05-13</br>
 
 [![](https://img.shields.io/badge/Spring%20Boot-8A2BE2)]() [![](https://img.shields.io/badge/release-Apr%2004,%202024-blue)]() [![](https://img.shields.io/badge/version-3.2.4-blue)]()
 
@@ -31,7 +31,7 @@ A Data Transfer Object (DTO) is an object used to encapsulate data and send it f
 This library can be implemented in your project by following the steps below
 
 ### 2.1 Create a Spring Boot Application
-Go to [Spring](start.spring.io) and create a new Spring Boot project.
+Go to [Spring](https://start.spring.io) and create a new Spring Boot project.
 ![01-start-spring-io](https://github.com/darksos34/modellibary/blob/master/src/main/resources/images/spring-initializr.png)
 
 

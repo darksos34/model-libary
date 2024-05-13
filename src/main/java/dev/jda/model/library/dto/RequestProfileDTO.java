@@ -14,7 +14,7 @@ import org.springframework.hateoas.RepresentationModel;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Schema(title = "profile", description = "A private string variable named profile")
+@Schema(title = "profile", description = "Request Pojo of ProfileDTO")
 public class RequestProfileDTO extends RepresentationModel<ProfileDTO> {
 
     @Size(max = 40)

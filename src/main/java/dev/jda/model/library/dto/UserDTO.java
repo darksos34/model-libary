@@ -17,7 +17,7 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Schema(title = "user", description = "A private string variable named user")
+@Schema(title = "user", description = "Pofo of a User")
 public class UserDTO extends RepresentationModel<UserDTO> {
 
     @Null
@@ -33,7 +33,6 @@ public class UserDTO extends RepresentationModel<UserDTO> {
     private String name;
 
     @Size(max = 15)
-
     @Schema(title = "Code",requiredMode = Schema.RequiredMode.REQUIRED, description = "A string variable named CODE with the value \"ABC123\"")
     private String code;
 

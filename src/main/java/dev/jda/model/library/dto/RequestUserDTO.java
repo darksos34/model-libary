@@ -14,7 +14,7 @@ import org.springframework.hateoas.RepresentationModel;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Schema(title = "user", description = "A private string variable named user")
+@Schema(title = "user", description = "Pofo of a UserDTO ")
 public class RequestUserDTO extends RepresentationModel<UserDTO> {
 
     @Size(max = 40)
