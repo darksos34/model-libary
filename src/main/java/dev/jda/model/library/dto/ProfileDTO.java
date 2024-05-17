@@ -35,10 +35,10 @@ public class ProfileDTO extends RepresentationModel<ProfileDTO> {
     private String code;
 
     @Size(max = 15)
-    @Schema(title = "Size",requiredMode = Schema.RequiredMode.REQUIRED, description = "A string variable named SIZE with the value \"ABC123\"")
+    @Schema(title = "Size", description = "A string variable named SIZE with the value \"ABC123\"")
     private String date;
 
-    @Schema(title = "User",requiredMode = Schema.RequiredMode.REQUIRED, description = "A private string variable named user")
+    @Schema(title = "User", description = "A private string variable named user")
     private String user;
 
 }

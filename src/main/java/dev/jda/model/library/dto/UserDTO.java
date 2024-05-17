@@ -36,7 +36,7 @@ public class UserDTO extends RepresentationModel<UserDTO> {
     @Schema(title = "Code",requiredMode = Schema.RequiredMode.REQUIRED, description = "A string variable named CODE with the value \"ABC123\"")
     private String code;
 
-    @Schema(title = "Profile",requiredMode = Schema.RequiredMode.REQUIRED, description = "A private string variable named profile")
+    @Schema(title = "Profile", description = "A private string variable named profile")
     private List<ProfileDTO> profiles;
 
 }
