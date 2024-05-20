@@ -17,7 +17,7 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Schema(title = "user", description = "Pofo of a User")
+@Schema(title = "user", description = "Pojo of a User")
 public class UserDTO extends RepresentationModel<UserDTO> {
 
     @Null
